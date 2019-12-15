@@ -1,0 +1,222 @@
+/* || Base styles */
+
+.body{
+	background-color: #F5F5F5;
+}
+
+.container{
+	padding: 0em 0em;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+a::selection,
+img::selection,
+b::selection,
+strong::selection,
+i::selection,
+em::selection,
+mark::selection,
+small::selection,
+del::selection,
+ins::selection,
+sub::selection,
+sup::selection{
+  background: #99B8C6;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	padding-bottom: 0.4em;
+	line-height: 1.2em;
+}
+
+p{
+	padding-bottom: 0.8em
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a::selection{
+  background: #99B8C6;
+}
+
+.box-home{
+	margin: 2em auto 4em;
+	padding: 2em;
+	max-width: 25em;
+
+	border-width: 0 0 0 0.4em;
+	border-style: solid;
+	border-color: #99B8C6;
+
+	background-color: #503047;
+	color: #FFFFFF;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 120%;
+	line-height: 1.5em;
+}
+
+.box-home a:link{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+.box-home a:hover{
+  color: #892A6E;
+}
+
+.box-home a:active{
+  color: #892A6E;
+}
+
+.box-home a:visited{
+	color: #CCA3C0;
+}
+
+.box-home a:visited:hover{
+  color: #892A6E;
+}
+
+/* || Footer */
+
+.footer{
+	text-align: center;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 80%;
+	color: #878787;
+}
+
+.footer a:link{
+	color: #878787;
+}
+
+.footer a:hover{
+	color: #a9a9a9;
+}
+
+.footer a:active{
+	color: #a9a9a9;
+}
+
+.footer a:visited{
+	color: #878787;
+}
+
+.footer a:visited:hover{
+	color: #a9a9a9;
+}
+
+/* || Profile photo */
+
+.img-padding{
+	padding: 1em 0 2em;
+}
+
+img.img-profile-round{
+	border-radius: 50%;
+	width: 30%;
+	display: block;
+}
+
+img.img-icon-inline{
+	height: 0.8em;
+}
+
+/* || Navigation */
+
+.nav-home{
+	font-size: 80%;
+	padding-bottom: 0;
+}
+
+.nav-home a:link{
+	text-decoration: none;
+	color: #CCA3C0;
+}
+
+.nav-home a:hover{
+	color: #892A6E;
+}
+
+.nav-home a:active{
+	color: #892A6E;
+}
+
+.nav-home a:visited{
+	color: #CCA3C0;
+}
+
+.nav-home a:visited:hover{
+	color: #892A6E;
+}
+
+/* || Social links */
+
+.list-social a:link{
+	text-decoration: none;
+}
+
+.list-social a:hover{
+	color: #892A6E;
+}
+
+.list-social a:active{
+	color: #892A6E;
+}
+
+.list-social a:visited{
+	color: #FFFFFF;
+}
+
+.list-social a:visited:hover{
+	color: #892A6E;
+}
+
+.list-social{
+	list-style-type: none;
+	padding-left: 1em;
+	line-height: 2em;
+}
+
+.list-facebook{
+	background: url(../assets/facebook.png) 0 0.4em no-repeat no-repeat;
+	background-size: 1em 1em;
+	padding-left: 1.4em;
+}
+
+.list-linkedin{
+	background: url(../assets/linkedin.png) 0 0.4em no-repeat no-repeat;
+	background-size: 1em 1em;
+	padding-left: 1.4em;
+}
+
+.list-instagram{
+	background: url(../assets/instagram.png) 0 0.4em no-repeat no-repeat;
+	background-size: 1em 1em;
+	padding-left: 1.4em;
+}
+
+.list-github{
+	background: url(../assets/github-white.png) 0 0.4em no-repeat no-repeat;
+	background-size: 1em 1em;
+	padding-left: 1.4em;
+}
+
+.list-youtube{
+	background: url(../assets/youtube.png) 0 0.6em no-repeat no-repeat;
+	background-size: 1em;
+	padding-left: 1.4em;
+}
