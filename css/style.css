@@ -1,11 +1,7 @@
-/* || Base styles */
+/* Base styles */
 
 .body{
 	background-color: #F5F5F5;
-}
-
-.container{
-	padding: 0em 0em;
 }
 
 h1::selection,
@@ -38,15 +34,12 @@ h1{
 }
 
 p{
-	padding-bottom: 0.8em
+	font-size: 1.2em;
+	padding-bottom: 0.8em;
 }
 
 a:link{
 	text-decoration: none;
-}
-
-a::selection{
-  background: #99B8C6;
 }
 
 .box-home{
@@ -63,7 +56,6 @@ a::selection{
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 120%;
 	line-height: 1.5em;
 }
 
@@ -88,14 +80,14 @@ a::selection{
   color: #892A6E;
 }
 
-/* || Footer */
+/* Footer */
 
 .footer{
 	text-align: center;
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 80%;
+	font-size: 0.8em;
 	color: #878787;
 }
 
@@ -119,15 +111,15 @@ a::selection{
 	color: #a9a9a9;
 }
 
-/* || Profile photo */
+/* Profile photo */
 
 .img-padding{
 	padding: 1em 0 2em;
 }
 
 img.img-profile-round{
-	border-radius: 50%;
-	width: 30%;
+	border-radius: 50em;
+	width: 8em;
 	display: block;
 }
 
@@ -135,10 +127,10 @@ img.img-icon-inline{
 	height: 0.8em;
 }
 
-/* || Navigation */
+/* Navigation */
 
 .nav-home{
-	font-size: 80%;
+	font-size: 0.8em;
 	padding-bottom: 0;
 }
 
@@ -163,7 +155,7 @@ img.img-icon-inline{
 	color: #892A6E;
 }
 
-/* || Social links */
+/* Social links */
 
 .list-social a:link{
 	text-decoration: none;
