@@ -232,8 +232,8 @@ nav a:visited:hover{
 }
 
 /* Media queries */
-@media(max-width: 540px){
+@media(max-width: 768px){
 	section{
-		max-width: 95%;
+		max-width: 80%;
 	}
 }
