@@ -10,47 +10,22 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.1rem;
 	font-weight: normal;
-	line-height: 135%;
-	padding-bottom: 2.8rem;
+	line-height: 140%;
 }
 
 h1{
 	font-weight: 700;
 	font-size: 4rem;
-	padding-bottom: 2.8rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 	line-height: 110%;
 }
 
 p{
-
+	padding-bottom: 2.8rem;
 }
 
-p a:link{
-	text-decoration: underline;
-	color: #FFFFFF;
-}
-
-p a:hover{
-  color: #892A6E;
-}
-
-p a:active{
-  color: #892A6E;
-}
-
-p a:visited{
-	color: #CCA3C0;
-}
-
-p a:visited:hover{
-  color: #892A6E;
-}
-
-a:link{
-	text-decoration: none;
-}
-
-.container{
+section{
 	margin: 3.2rem auto 6.4rem;
 	padding: 3.2rem;
 	max-width: 45rem;
@@ -61,6 +36,31 @@ a:link{
 
 	background-color: #503047;
 	color: #FFFFFF;
+}
+
+section a:link{
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+section a:hover{
+  color: #892A6E;
+}
+
+section a:active{
+  color: #892A6E;
+}
+
+section a:visited{
+	color: #CCA3C0;
+}
+
+section a:visited:hover{
+  color: #892A6E;
+}
+
+a:link{
+	text-decoration: none;
 }
 
 h1::selection,
@@ -81,13 +81,26 @@ small::selection,
 del::selection,
 ins::selection,
 sub::selection,
-sup::selection{
+sup::selection,
+article::selection,
+aside::selection,
+details::selection,
+figcaption::selection,
+figure::selection,
+footer::selection,
+header::selection,
+main::selection,
+mark::selection,
+nav::selection,
+section::selection,
+summary::selection,
+time::selection{
   background: #99B8C6;
 }
 
 /* Footer */
 
-.footer{
+footer{
 	text-align: center;
 
 	font-family: 'Roboto', sans-serif;
@@ -96,23 +109,23 @@ sup::selection{
 	color: #878787;
 }
 
-.footer a:link{
+footer a:link{
 	color: #878787;
 }
 
-.footer a:hover{
+footer a:hover{
 	color: #a9a9a9;
 }
 
-.footer a:active{
+footer a:active{
 	color: #a9a9a9;
 }
 
-.footer a:visited{
+footer a:visited{
 	color: #878787;
 }
 
-.footer a:visited:hover{
+footer a:visited:hover{
 	color: #a9a9a9;
 }
 
@@ -123,7 +136,7 @@ img.img-icon-inline{
 /* Profile photo */
 
 .img-profile-padding{
-	padding: 1.6rem 0 3.2rem;
+	padding: 2.2rem 0 1.3rem;
 }
 
 img.img-profile-round{
@@ -134,29 +147,28 @@ img.img-profile-round{
 
 /* Navigation */
 
-.nav-home{
+nav{
 	font-size: 1.8rem;
-	padding-bottom: 0;
 }
 
-.nav-home a:link{
+nav a:link{
 	text-decoration: none;
 	color: #CCA3C0;
 }
 
-.nav-home a:hover{
+nav a:hover{
 	color: #892A6E;
 }
 
-.nav-home a:active{
+nav a:active{
 	color: #892A6E;
 }
 
-.nav-home a:visited{
+nav a:visited{
 	color: #CCA3C0;
 }
 
-.nav-home a:visited:hover{
+nav a:visited:hover{
 	color: #892A6E;
 }
 
@@ -164,6 +176,7 @@ img.img-profile-round{
 
 .list-social a:link{
 	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .list-social a:hover{
@@ -184,36 +197,43 @@ img.img-profile-round{
 
 .list-social{
 	list-style-type: none;
-	padding-left: 1.6rem;
+	padding-left: 1.8rem;
 	line-height: 3.2rem;
 }
 
 .list-facebook{
 	background: url(../assets/facebook.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem 1.6rem;
-	padding-left: 2.24rem;
+	padding-left: 2.6rem;
 }
 
 .list-linkedin{
 	background: url(../assets/linkedin.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem 1.6rem;
-	padding-left: 2.24rem;
+	padding-left: 2.6rem;
 }
 
 .list-instagram{
 	background: url(../assets/instagram.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem 1.6rem;
-	padding-left: 2.24rem;
+	padding-left: 2.6rem;
 }
 
 .list-github{
 	background: url(../assets/github-white.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem 1.6rem;
-	padding-left: 2.24rem;
+	padding-left: 2.6rem;
 }
 
 .list-youtube{
 	background: url(../assets/youtube.png) 0 0.96rem no-repeat no-repeat;
 	background-size: 1.6rem;
-	padding-left: 2.24rem;
+	padding-left: 2.6rem;
+}
+
+/* Media queries */
+@media(max-width: 540px){
+	section{
+		max-width: 95%;
+	}
 }
