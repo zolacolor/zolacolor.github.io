@@ -10,7 +10,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 2.1rem;
 	font-weight: normal;
-	line-height: 140%;
+	line-height: 1.5;
 }
 
 h1{
@@ -18,7 +18,7 @@ h1{
 	font-size: 4rem;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	line-height: 110%;
+	line-height: 1.5;
 }
 
 p{
@@ -28,7 +28,7 @@ p{
 section{
 	margin: 3.2rem auto 6.4rem;
 	padding: 3.2rem;
-	max-width: 45rem;
+	max-width: 450px;
 
 	border-width: 0 0 0 0.64rem;
 	border-style: solid;
@@ -229,11 +229,4 @@ nav a:visited:hover{
 	background: url(../assets/youtube.png) 0 0.96rem no-repeat no-repeat;
 	background-size: 1.6rem;
 	padding-left: 2.6rem;
-}
-
-/* Media queries */
-@media(max-width: 768px){
-	section{
-		max-width: 80%;
-	}
 }
