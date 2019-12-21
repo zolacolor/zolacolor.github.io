@@ -28,7 +28,7 @@ p{
 section{
 	margin: 3.2rem auto 6.4rem;
 	padding: 3.2rem;
-	width: 450px;
+	width: 45rem;
 	max-width: 90%;
 
 	border-width: 0 0 0 7px;
@@ -106,7 +106,7 @@ footer{
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 1.28rem;
+	font-size: 1.5rem;
 	color: #878787;
 }
 
@@ -233,3 +233,8 @@ nav a:visited:hover{
 }
 
 /* Mobile styles */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+}
