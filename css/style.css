@@ -234,10 +234,10 @@ nav a:visited:hover{
 /* Mobile styles */
 @media only screen and (max-width: 768px){
   	html{
-    		font-size: 100%;
+    		font-size: 62.5%;
   	}
   	section{
-		width: 75%;
+		width: 65%;
 		background-color: red;
 	}
 }
