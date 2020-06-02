@@ -16,13 +16,13 @@ body{
 h1{
 	font-weight: 700;
 	font-size: 4rem;
-	padding-top: 1rem;
-	padding-bottom: 1.5rem;
+	padding-top: 0.8rem;
+	padding-bottom: 1.3rem;
 	line-height: 1.5;
 }
 
 p{
-	padding-bottom: 2.8rem;
+	padding-bottom: 1rem;
 }
 
 section{
@@ -103,8 +103,6 @@ time::selection{
 footer{
 	text-align: center;
 
-	font-family: 'Roboto', sans-serif;
-	font-weight: normal;
 	font-size: 1.6rem;
 	color: #878787;
 }
@@ -129,17 +127,17 @@ footer a:visited:hover{
 	color: #a9a9a9;
 }
 
-img.img-icon-inline{
+footer img{
 	height: 0.9em;
 }
 
 /* Profile photo */
 
-.img-profile-padding{
+.profile{
 	padding: 2.2rem 0 1.3rem;
 }
 
-img.img-profile-round{
+.profile img{
 	border-radius: 50%;
 	width: 7em;
 	display: block;
@@ -172,7 +170,7 @@ nav a:visited:hover{
 	color: #892A6E;
 }
 
-/* Social links */
+/* Social */
 
 .list-social a:link{
 	text-decoration: none;
@@ -231,12 +229,65 @@ nav a:visited:hover{
 	padding-left: 2.6rem;
 }
 
+/* Logo SVGs*/
+
+.logo{
+	position: relative;
+	height: 16rem;
+	border-radius: 1rem;
+	margin-bottom: 4rem;
+}
+
+.logo img{
+	display: block;
+	margin: auto;
+	padding: 5.3rem 0;
+	width: 20rem;
+}
+
+.parliament{
+	background-color: #373151;
+}
+
+.scouts{
+	background-color: #7413dc;
+}
+
+/* Inline Image */
+
+.inlineimg img{
+	position: relative;
+	display: block;
+	height: 16rem;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 1rem;
+	margin-bottom: 4rem;
+}
+
+.inlineimgcrop1 img{
+	object-position: 0 40%;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 768px){
+  	
   	html{
-    		font-size: 60%;
+    		font-size: 57%;
   	}
+
   	section{
-		width: 70%;
+		width: 90%;
 	}
+
+	footer{
+	font-size: 1.2rem;
+	}
+
+	/* Extra */
+
+	.profile img{
+	width: 6em;
+	}
+
 }
