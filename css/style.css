@@ -288,14 +288,14 @@ nav a:visited:hover{
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 525px){
   	
   	html{
     		font-size: 57%;
   	}
 
   	section{
-		width: 90%;
+		width: 82.5%;
 	}
 
 	footer{
