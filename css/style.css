@@ -201,13 +201,13 @@ nav a:visited:hover{
 
 .list-facebook{
 	background: url(../assets/facebook.png) 0 0.64rem no-repeat no-repeat;
-	background-size: 1.6rem 1.6rem;
+	background-size: 1.6rem;
 	padding-left: 2.6rem;
 }
 
 .list-linkedin{
 	background: url(../assets/linkedin.png) 0 0.64rem no-repeat no-repeat;
-	background-size: 1.6rem 1.6rem;
+	background-size: 1.6rem;
 	padding-left: 2.6rem;
 }
 
@@ -224,7 +224,13 @@ nav a:visited:hover{
 }
 
 .list-youtube{
-	background: url(../assets/youtube.png) 0 0.96rem no-repeat no-repeat;
+	background: url(../assets/youtube.png) 0 0.64rem no-repeat no-repeat;
+	background-size: 1.6rem;
+	padding-left: 2.6rem;
+}
+
+.list-twitter{
+	background: url(../assets/twitter.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem;
 	padding-left: 2.6rem;
 }
@@ -251,6 +257,10 @@ nav a:visited:hover{
 
 .scouts{
 	background-color: #7413dc;
+}
+
+.oxford{
+	background-color: #002147;
 }
 
 /* Inline Image */
@@ -281,6 +291,10 @@ nav a:visited:hover{
 
 .inlineimgcrop50 img{
 	object-position: 0 50%;
+}
+
+.inlineimgcrop70 img{
+	object-position: 0 70%;
 }
 
 .inlineimgcrop90 img{
