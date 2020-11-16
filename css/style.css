@@ -218,7 +218,7 @@ nav a:visited:hover{
 }
 
 .list-github{
-	background: url(../assets/github-white.png) 0 0.64rem no-repeat no-repeat;
+	background: url(../assets/github_white.png) 0 0.64rem no-repeat no-repeat;
 	background-size: 1.6rem 1.6rem;
 	padding-left: 2.6rem;
 }
